@@ -1,0 +1,56 @@
+{
+  "plateau": [
+    {
+      "nom": "Monte-charge",
+      "portes": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "acces": 0,
+      "essence": 0,
+      "comsat": 0,
+      "pioche": 2
+    },
+    {
+      "nom": "Couloir",
+      "portes": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "acces": 0,
+      "essence": 0,
+      "comsat": 0,
+      "pioche": 1
+    },
+    {
+      "nom": "laboratoire",
+      "portes": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "acces": 1,
+      "essence": 0,
+      "comsat": 1,
+      "pioche": 3
+    },
+    {
+      "nom": "Armurerie",
+      "portes": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "acces": 2,
+      "essence": 1,
+      "comsat": 0,
+      "pioche": 3
+    }
+  ]
+}

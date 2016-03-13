@@ -1,0 +1,26 @@
+{
+  "armes": [
+    {
+      "nom": "Le pompe",
+      "mains": 2,
+      "degats": 4,
+      "chargeur": 4,
+      "bruit": 2
+    },
+    {
+      "nom": "Arbalète",
+      "mains": 1,
+      "degats": 2,
+      "chargeur": 6,
+      "bruit": 0
+    },
+    {
+      "nom": "Lance flammes",
+      "mains": 2,
+      "degats": 5,
+      "chargeur": 4,
+      "bruit": 2,
+      "lumiere": true
+    }
+  ]
+}
