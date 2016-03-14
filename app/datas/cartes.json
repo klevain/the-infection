@@ -10,17 +10,38 @@
     {
       "nom": "Arbalète",
       "mains": 1,
-      "degats": 2,
+      "degats": 1,
       "chargeur": 6,
       "bruit": 0
     },
     {
-      "nom": "Lance flammes",
+      "nom": "Lance-flammes",
       "mains": 2,
       "degats": 5,
       "chargeur": 4,
       "bruit": 2,
       "lumiere": true
+    },
+    {
+      "nom": "Fusil auto",
+      "mains": 2,
+      "degats": 3,
+      "chargeur": 5,
+      "bruit": 2
+    },
+    {
+      "nom": "Couteau",
+      "mains": 1,
+      "degats": 1,
+      "chargeur": 0,
+      "bruit": 0
+    },
+    {
+      "nom": "Lance-roquette",
+      "mains": 2,
+      "degats": 20,
+      "chargeur": 1,
+      "bruit": 2
     }
   ]
 }

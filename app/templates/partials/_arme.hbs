@@ -3,13 +3,14 @@
   	 viewBox="0 0 420 596" style="enable-background:new 0 0 420 596;" xml:space="preserve">
   <style type="text/css">
   	.st0{fill:#FFD0DA;}
-  	.st1{font-family:'Consolas';}
+  	.st1{font-family:'Consolas'; stroke: white; stroke-width: 2}
   	.st2{font-size:41.7143px;}
   	.st3{fill:#FF3000;}
   	.st4{fill:#FFA83A;}
   	.st5{fill:#BFBFBF;}
   	.st6{font-size:60px;}
   </style>
+  {{>_arme-background}}
   <g id="fond">
   	<path d="M404,8c4.4,0,8,3.6,8,8v564c0,4.4-3.6,8-8,8H16c-4.4,0-8-3.6-8-8V16c0-4.4,3.6-8,8-8H404 M404,0H16C7.2,0,0,7.2,0,16v564
   		c0,8.8,7.2,16,16,16h388c8.8,0,16-7.2,16-16V16C420,7.2,412.8,0,404,0L404,0z"/>
@@ -105,6 +106,7 @@
   	<polygon id="icon_3_" points="330.9,455.3 328.5,453.7 321.7,453.7 319.5,475.6 318.8,475.6 318.5,478.9 329.8,478.9 330.1,475.6
   		328.8,475.6 	"/>
   </g>
+  {{#if lumiere}}
   <g id="lumiere">
   	<g id="bg_8_">
   		<path d="M349,342.9h-48.7c-3.8,0-7,3.1-7,7v73.7c0,3.8,3.1,7,7,7H349c3.8,0,7-3.1,7-7v-73.7C356,346,352.9,342.9,349,342.9z
@@ -118,6 +120,7 @@
   		L328.9,379.1z M338.8,376l-0.3-0.5l-4.8,4.6l0.3,0.5L338.8,376z M334.8,382.8l0.2,0.5l7-3.2l-0.2-0.5L334.8,382.8z M336.3,386
   		l6.6-0.6l-0.2-0.6l-6.6,0.6L336.3,386z"/>
   </g>
+  {{/if}}
   <text transform="matrix(1 0 0 1 210 128)" class="st1 st6" text-anchor="middle">{{nom}}</text>
   </svg>
 
